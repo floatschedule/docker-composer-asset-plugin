@@ -1,10 +1,5 @@
 # docker build -t floatapp/composer-asset-plugin:latest .
 #
-# we probalby want to just use the php image created for the web
-# project, as appropriate, yii or yii 2
-#
-# also should see if we can do without the composer-asset-plugin since
-# we aren't using php to manage other assets
 #
 
 FROM composer/composer:alpine
